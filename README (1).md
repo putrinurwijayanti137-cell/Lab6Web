@@ -55,41 +55,50 @@ Keterangan:
 
 ### 5.1 Eksperimen Sembunyi dan Tampil
 
-![Eksperimen Sembunyi dan Tampil](image/eksperimen-sembunyi-tampil.png)
+![Eksperimen Sembunyi dan Tampil](image/eksperimen-sembunyi-tampil)
 
 Screenshot ini menunjukkan penggunaan tombol untuk menyembunyikan dan menampilkan kembali paragraf. Program menggunakan `addEventListener()` untuk menangani klik dan `classList.toggle()` untuk mengubah class CSS pada elemen.
 
-## Screenshot Hasil Praktikum
+### 5.2 Latihan 1–2 — DOM dan Event Klik
 
-### 1. Eksperimen Sembunyi dan Tampil
-![Eksperimen Sembunyi dan Tampil](image/eksperimen-sembunyi-tampil.png)
+![Latihan 1-2 DOM Click](image/latihan-1-2-dom-click)
 
-### 2. Latihan 1–2 — DOM dan Event Klik
-![Latihan 1–2 DOM dan Event Klik](image/latihan-1-2-dom-click.png)
 Screenshot ini menunjukkan perubahan judul dan isi paragraf menggunakan DOM. Elemen dipilih dengan `getElementById()`, kemudian teksnya diubah menggunakan `textContent`. Latihan ini membuktikan bahwa JavaScript dapat mengubah isi halaman web.
 
-### 3. Latihan 1–2 — Screenshot Tambahan
-![Latihan 1–2 DOM dan Event Klik 2](image/latihan-1-2-dom-click2.png)
+### 5.3 Latihan 1–2 — Pengujian Tambahan
+
+![Latihan 1-2 DOM Click 2](image/latihan-1-2-dom-click2)
+
 Screenshot ini mendokumentasikan pengujian event klik pada tombol. Saat tombol ditekan, pesan pada halaman diperbarui dengan waktu saat tombol diklik. Fungsi tersebut menggunakan `addEventListener()` dengan event `click`.
 
-### 4. Latihan 3 — Gaya CSS
-![Latihan 3 Gaya CSS](image/latihan-3-gaya-css.png)
+### 5.4 Latihan 3 — Mengubah Gaya CSS
+
+![Latihan 3 Gaya CSS](image/latihan-3-gaya-css)
+
 Screenshot ini menunjukkan perubahan tampilan paragraf menggunakan `classList.toggle()`. Class `highlight` mengatur warna teks, latar belakang, garis tepi, dan padding, sedangkan class `teks-besar` mengubah ukuran teks.
 
-### 5. Latihan 4 — Penghitung Karakter
-![Latihan 4 Penghitung Karakter](image/latihan-4-penghitung-karakter.png)
+### 5.5 Latihan 4 — Penghitung Karakter
+
+![Latihan 4 Penghitung Karakter](image/latihan-4-penghitung-karakter)
+
 Screenshot ini menunjukkan jumlah karakter yang berubah secara langsung ketika pengguna mengetik. Program menggunakan event `input` untuk mendeteksi perubahan teks dan `value.length` untuk menghitung jumlah karakter.
 
-### 6. Latihan 5 — Email Tidak Valid
-![Latihan 5 Email Tidak Valid](image/latihan-5-email-tidak-valid.png)
+### 5.6 Latihan 5 — Email Tidak Valid
+
+![Latihan 5 Email Tidak Valid](image/latihan-5-email-tidak-valid)
+
 Screenshot ini menunjukkan pengujian validasi ketika alamat email tidak sesuai dengan format yang diharapkan. Program memeriksa email sebelum melanjutkan proses dan menampilkan pesan kesalahan apabila formatnya tidak valid.
 
-### 7. Latihan 5 — Nama Kosong
-![Latihan 5 Nama Kosong](image/latihan-5-nama-kosong.png)
+### 5.7 Latihan 5 — Nama Kosong
+
+![Latihan 5 Nama Kosong](image/latihan-5-nama-kosong)
+
 Screenshot ini menunjukkan pengujian formulir ketika kolom nama belum diisi. Program menampilkan pesan bahwa nama wajib diisi sehingga pengguna mengetahui data yang masih perlu dilengkapi.
 
-### 8. Latihan 6 — Tambah, Selesai, Hapus
-![Latihan 6 Tambah Selesai Hapus](image/latihan-6-tambah-selesai-hapus.png)
+### 5.8 Latihan 6 — Tambah, Selesai, dan Hapus Tugas
+
+![Latihan 6 Tambah Selesai Hapus](image/latihan-6-tambah-selesai-hapus)
+
 Screenshot ini menunjukkan fitur daftar tugas (*to-do list*). Pengguna dapat menambahkan tugas, menandai tugas sebagai selesai, dan menghapus tugas. Program menggunakan `createElement()`, `appendChild()`, `classList.toggle()`, dan `remove()` untuk mengelola elemen daftar tugas.
 
 ## 6. Kesimpulan
